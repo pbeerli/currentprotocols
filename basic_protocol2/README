@@ -1,6 +1,13 @@
 This directory contains all files generated in the Basic Protocol 2.
 The tutorial recreates all these files.
 
-the basic_protolc2.sh creates the temp_protocol2 directory and all outfiles and the model probability table.
+the basic_protocol2.sh creates the temp_protocol2 directory and all outfiles and the model probability table.
+the basic_protocol2_mpi.sh is equivalent to basic_protocol2.sh except that it uses the parallel migrate version, see Advanced support protocol.
 
 To use the bf.py utility you will need to copy it into the working directory.
+
+
+The directory example_results_short contain example results for the tutorial in Basic Protocol2 and Advacced Protocol for the parmfile_short derived models.
+
+The directory example_results_defaults contain example results for the tutorial in Basic Protocol2 and Advacced Protocol for the parmfile_default derived models.
+

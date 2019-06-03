@@ -11,10 +11,10 @@ Reading parmfile "parmfile_model3"....
   Compiled for a SYMMETRIC multiprocessors (GrandCentral)
   PDF output enabled [Letter-size]
   Version 4.4.3(git:)   [March-21-2019]
-  Program started at   Sun Jun  2 00:34:11 2019
+  Program started at   Mon Jun  3 10:02:12 2019
 
 
-Master random number seed: 548004316
+Master random number seed: 3799664265
 
 
 Reading (1) Arbon_1 ...
@@ -60,7 +60,7 @@ Inheritance scalers in use for Thetas (specified scalars=1)
 
 
 Pseudo-random number generator: Mersenne-Twister                                
-Random number seed (with internal timer)            548004316
+Random number seed (with internal timer)           3799664265
 
 Start parameters:
    First genealogy was started using a random tree
@@ -176,46 +176,46 @@ Population                   Locus   Gene copies
                                  9        30
                                 10        30
 
-[  8] 00:34:12   Burn-in of 500000 steps (Locus: 8/10, Replicate: 1/1) 
-[  6] 00:34:12   Burn-in of 500000 steps (Locus: 6/10, Replicate: 1/1) 
-[  7] 00:34:12   Burn-in of 500000 steps (Locus: 7/10, Replicate: 1/1) 
-[  4] 00:34:12   Burn-in of 500000 steps (Locus: 4/10, Replicate: 1/1) 
-[  1] 00:34:12   Burn-in of 500000 steps (Locus: 1/10, Replicate: 1/1) 
-[  2] 00:34:12   Burn-in of 500000 steps (Locus: 2/10, Replicate: 1/1) 
-[  3] 00:34:12   Burn-in of 500000 steps (Locus: 3/10, Replicate: 1/1) 
-[  5] 00:34:12   Burn-in of 500000 steps (Locus: 5/10, Replicate: 1/1) 
-[  2] 00:38:06   Sampling of 500000 steps (Locus: 2/10, Replicate: 1/1) 
-[  7] 00:38:07   Sampling of 500000 steps (Locus: 7/10, Replicate: 1/1) 
-[  3] 00:38:10   Sampling of 500000 steps (Locus: 3/10, Replicate: 1/1) 
-[  6] 00:38:13   Sampling of 500000 steps (Locus: 6/10, Replicate: 1/1) 
-[  8] 00:38:14   Sampling of 500000 steps (Locus: 8/10, Replicate: 1/1) 
-[  5] 00:38:15   Sampling of 500000 steps (Locus: 5/10, Replicate: 1/1) 
-[  1] 00:38:17   Sampling of 500000 steps (Locus: 1/10, Replicate: 1/1) 
-[  4] 00:38:22   Sampling of 500000 steps (Locus: 4/10, Replicate: 1/1) 
-[  2] 00:40:25   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.14,0.16,0.21,1.00) Swap(25780,1956,0)
-                Param={ 0.008511 0.01325 0 0 0.09225 0.06667}
-[  2] 00:40:25   Burn-in of 500000 steps (Locus: 9/10, Replicate: 1/1) 
-[  7] 00:40:33   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.13,0.15,0.19,1.00) Swap(26962,5290,0)
-                Param={ 0.0168 0.01521 0 0 0.06506 0.08356}
-[  7] 00:40:33   Burn-in of 500000 steps (Locus: 10/10, Replicate: 1/1) 
-[  3] 00:40:35   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.15,0.17,0.20,1.00) Swap(29097,6575,0)
-                Param={ 0.01125 0.01926 0 0 0.08884 0.05698}
-[  8] 00:40:40   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.13,0.15,0.19,1.00) Swap(24319,5599,0)
-                Param={ 0.01313 0.02567 0 0 0.07341 0.02846}
-[  6] 00:40:41   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.14,0.16,0.21,1.00) Swap(28521,3102,0)
-                Param={ 0.009001 0.04844 0 0 0.04379 0.09122}
-[  5] 00:40:42   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.19,0.23,0.30,1.00) Swap(23556,2657,0)
-                Param={ 0.002195 0.02878 0 0 0.05799 0.07773}
-[  1] 00:40:43   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.13,0.14,0.19,1.00) Swap(25585,3132,0)
-                Param={ 0.01037 0.01132 0 0 0.068 0.02929}
-[  4] 00:40:47   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.14,0.16,0.19,1.00) Swap(27617,3050,0)
-                Param={ 0.008583 0.0218 0 0 0.002881 0.03526}
-[  2] 00:43:00   Sampling of 500000 steps (Locus: 9/10, Replicate: 1/1) 
-[  7] 00:43:04   Sampling of 500000 steps (Locus: 10/10, Replicate: 1/1) 
-[  2] 00:44:25   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.14,0.16,0.20,1.00) Swap(26742,4001,0)
-                Param={ 0.01674 0.01037 0 0 0.08289 0.08931}
-[  7] 00:44:27   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.11,0.13,0.17,1.00) Swap(26264,2064,0)
-                Param={ 0.00556 0.02752 0 0 0.0356 0.01603}
+[  7] 10:02:12   Burn-in of 500000 steps (Locus: 7/10, Replicate: 1/1) 
+[  2] 10:02:12   Burn-in of 500000 steps (Locus: 2/10, Replicate: 1/1) 
+[  4] 10:02:12   Burn-in of 500000 steps (Locus: 4/10, Replicate: 1/1) 
+[  5] 10:02:12   Burn-in of 500000 steps (Locus: 5/10, Replicate: 1/1) 
+[  6] 10:02:12   Burn-in of 500000 steps (Locus: 6/10, Replicate: 1/1) 
+[  8] 10:02:12   Burn-in of 500000 steps (Locus: 8/10, Replicate: 1/1) 
+[  1] 10:02:12   Burn-in of 500000 steps (Locus: 1/10, Replicate: 1/1) 
+[  3] 10:02:12   Burn-in of 500000 steps (Locus: 3/10, Replicate: 1/1) 
+[  2] 10:06:02   Sampling of 500000 steps (Locus: 2/10, Replicate: 1/1) 
+[  7] 10:06:05   Sampling of 500000 steps (Locus: 7/10, Replicate: 1/1) 
+[  3] 10:06:07   Sampling of 500000 steps (Locus: 3/10, Replicate: 1/1) 
+[  5] 10:06:10   Sampling of 500000 steps (Locus: 5/10, Replicate: 1/1) 
+[  8] 10:06:12   Sampling of 500000 steps (Locus: 8/10, Replicate: 1/1) 
+[  6] 10:06:12   Sampling of 500000 steps (Locus: 6/10, Replicate: 1/1) 
+[  1] 10:06:12   Sampling of 500000 steps (Locus: 1/10, Replicate: 1/1) 
+[  4] 10:06:19   Sampling of 500000 steps (Locus: 4/10, Replicate: 1/1) 
+[  2] 10:08:21   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.14,0.16,0.21,1.00) Swap(25151,2150,0)
+                Param={ 0.01586 0.005824 0 0 0.02327 0.05286}
+[  2] 10:08:21   Burn-in of 500000 steps (Locus: 9/10, Replicate: 1/1) 
+[  7] 10:08:32   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.13,0.15,0.19,1.00) Swap(27225,5656,0)
+                Param={ 0.01472 0.01575 0 0 0.01738 0.06894}
+[  7] 10:08:32   Burn-in of 500000 steps (Locus: 10/10, Replicate: 1/1) 
+[  3] 10:08:34   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.15,0.17,0.20,1.00) Swap(28364,6401,0)
+                Param={ 0.01764 0.01049 0 0 0.09135 0.09386}
+[  5] 10:08:38   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.19,0.23,0.31,1.00) Swap(25224,2247,0)
+                Param={ 0.009956 0.02996 0 0 0.09175 0.06096}
+[  8] 10:08:40   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.13,0.15,0.19,1.00) Swap(24965,4974,0)
+                Param={ 0.007066 0.01667 0 0 0.01891 0.06869}
+[  1] 10:08:42   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.13,0.14,0.19,1.00) Swap(26374,1963,0)
+                Param={ 0.005557 0.02437 0 0 0.02909 0.08706}
+[  6] 10:08:43   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.14,0.16,0.21,1.00) Swap(27322,3014,0)
+                Param={ 0.01501 0.03022 0 0 0.04437 0.06458}
+[  4] 10:08:47   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.14,0.16,0.19,1.00) Swap(28051,4261,0)
+                Param={ 0.008958 0.02472 0 0 0.09947 0.0903}
+[  2] 10:11:00   Sampling of 500000 steps (Locus: 9/10, Replicate: 1/1) 
+[  7] 10:11:06   Sampling of 500000 steps (Locus: 10/10, Replicate: 1/1) 
+[  2] 10:12:25   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.14,0.16,0.21,1.00) Swap(26751,3750,0)
+                Param={ 0.008794 0.03183 0 0 0.05086 0.06087}
+[  7] 10:12:27   Sampling Temp[4]:(1,1.5,3,1e+06) Acc(0.11,0.13,0.17,1.00) Swap(25461,3105,0)
+                Param={ 0.01003 0.02681 0 0 0.0158 0.07747}
 
 
 
@@ -223,11 +223,11 @@ Acceptance ratios for all parameters and the genealogies
 ---------------------------------------------------------------------
 
 Parameter           Accepted changes               Ratio
-Theta_1                 245902/623778            0.39421
-Theta_2                 303832/625268            0.48592
-D_1->2                   553416/624646            0.88597
-S_1->2                   352053/624711            0.56355
-Genealogies             352053/2501597            0.14073
+Theta_1                 291060/625716            0.46516
+Theta_2                 276232/625179            0.44184
+D_1->2                   554305/624970            0.88693
+S_1->2                   351467/624929            0.56241
+Genealogies             351467/2499206            0.14063
 
 
 
@@ -235,11 +235,11 @@ Autocorrelation for all parameters and the genealogies
 ------------------------------------------------------------------------
 
 Parameter           Autocorrelation                Effective Sample size
-Theta_1                   0.344                 34027.486
-Theta_2                   0.248                 42981.672
-D_1->2                    0.026                 66086.125
-S_1->2                    0.018                 67709.819
-Genealogies               0.646                  14901.387
+Theta_1                   0.365                 32820.175
+Theta_2                   0.195                 45647.620
+D_1->2                    0.027                 66002.732
+S_1->2                    0.017                 68044.981
+Genealogies               0.660                  14351.287
 
 
 
@@ -253,23 +253,43 @@ shows the support for thisModel]
 
 Locus      Raw Thermodynamic score(1a)  Bezier approximated score(1b)      Harmonic mean(2)
 ------------------------------------------------------------------------------------------
-      1              -2505.15                      -2314.18               -2282.17
-      2              -2117.15                      -1979.80               -1952.21
-      3              -2291.77                      -2127.09               -2104.11
-      4              -2525.32                      -2269.58               -2226.55
-      5              -2368.06                      -2195.62               -2165.49
-      6              -2540.18                      -2325.89               -2289.97
-      7              -2445.34                      -2226.36               -2191.93
-      8              -2515.57                      -2259.87               -2218.75
-      9              -2511.27                      -2297.36               -2264.30
-     10              -2384.13                      -2181.47               -2145.07
+      1              -2506.95                      -2315.33               -2282.26
+      2              -2118.22                      -1980.08               -1951.83
+      3              -2291.09                      -2126.93               -2104.08
+      4              -2515.23                      -2266.97               -2226.69
+      5              -2369.43                      -2196.13               -2165.66
+      6              -2539.67                      -2326.08               -2289.97
+      7              -2453.19                      -2226.72               -2191.87
+      8              -2523.73                      -2261.33               -2218.74
+      9              -2503.82                      -2296.64               -2264.38
+     10              -2380.10                      -2180.28               -2144.79
 ---------------------------------------------------------------------------------------
-  All               -24195.66                     -22168.93              -21920.82
-[Scaling factor = 8.299478]
+  All               -24192.94                     -22168.01              -21926.83
+[Scaling factor = 8.480024]
 
 
 (1a) Thermodynamic integration: log(Prob(D|Model)): Good approximation with many temperatures
 (1b) Bezier-approximated Thermodynamic integration: when using few temperatures USE THIS!
 (2)  Harmonic mean approximation: Overestimates the marginal likelihood, poor variance
 
-00:44:47   Program finished
+
+POTENTIAL PROBLEMS
+------------------------------------------------------------------------------------------
+This section reports potential problems with your run, but such reporting is often not 
+very accurate. Whith many parameters in a multilocus analysis, it is very common that 
+some parameters for some loci will not be very informative, triggering suggestions (for 
+example to increase the prior range) that are not sensible. This suggestion tool will 
+improve with time, therefore do not blindly follow its suggestions. If some parameters 
+are flagged, inspect the tables carefully and judge wether an action is required. For 
+example, if you run a Bayesian inference with sequence data, for macroscopic species 
+there is rarely the need to increase the prior for Theta beyond 0.1; but if you use 
+microsatellites it is rather common that your prior distribution for Theta should have a 
+range from 0.0 to 100 or more. With many populations (>3) it is also very common that 
+some migration routes are estimated poorly because the data contains little or no 
+information for that route. Increasing the range will not help in such situations, 
+reducing number of parameters may help in such situations.
+------------------------------------------------------------------------------------------
+Param 6 (Locus 2): Upper prior boundary seems too low! 
+Param 6 (Locus 5): Upper prior boundary seems too low! 
+------------------------------------------------------------------------------------------
+10:12:48   Program finished

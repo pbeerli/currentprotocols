@@ -8,7 +8,8 @@ echo "creates a directory $tempdir and then runs"
 echo " all 3 examples for the basic protocol"
 mkdir -p $tempdir
 cd $tempdir
-cp ../../basic_protocol1/infile.modern infile
+cp ../../basic_protocol1/infile infile
+cp ../parmfile_* .
 time=`date`
 echo "$time migrate-n parmfile_short (basic model [protocol1]) running now"
 nohup mpirun -np 9 --oversubscribe migrate-n-mpi  parmfile_short -nomenu > parm_short.log 2>parm_short.err
@@ -23,4 +24,4 @@ echo "$time migrate-n parmfile_model3 running now"
 nohup mpirun -np 9 --oversubscribe migrate-n-mpi parmfile_model3 -nomenu > parm_model3.log 2> parm_model3.err
 echo "Done"
 echo "Comparison of the marginal likelihoods from all four models"
-grep "All   " outfile_model[123] outfile_short | sort -n -k 4,4 | python bf.py
+grep "All   " outfile_model[123] outfile_short | sort -n -k 4,4 | python ../bf.py

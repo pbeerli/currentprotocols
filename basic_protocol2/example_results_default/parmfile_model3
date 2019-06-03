@@ -455,7 +455,7 @@ bayes-proposals= DIVERGENCE METROPOLIS-HASTINGS Sampler
 bayes-proposals= DIVERGENCESTD METROPOLIS-HASTINGS Sampler
 
 bayes-priors= THETA * * UNIFORMPRIOR: 0.000000 0.100000 0.010000 
-bayes-priors= MIG * * UNIFORMPRIOR: 0.000000 1000.000000 100.000000 
+bayes-priors= MIG * * UNIFORMPRIOR: 0.000000 5000.000000 500.000000 
 bayes-priors= SPLIT * * UNIFORMPRIOR: 0.000000 0.100000 0.010000 
 bayes-priors= SPLITSTD * * UNIFORMPRIOR: 0.000000 0.100000 0.100000 
 
@@ -471,7 +471,7 @@ bayes-priors= SPLITSTD * * UNIFORMPRIOR: 0.000000 0.100000 0.100000
 bayes-hyperpriors=NO
 #
 long-chains=1
-long-inc=500
+long-inc=100
 long-sample=5000
 burn-in=5000  
 auto-tune=YES:0.440000

@@ -358,7 +358,7 @@ divergence-distrib=S
 #                  *--------2     2 receives migrants from 1
 #                  |                and split from 3
 #         ---------*--------3     3 is the persisting ancestor
-custom-migration={*00 D*0 0D*}
+custom-migration={x00 Dx0 0Dx}
 #
 # Influence of geography on migration rate
 # a distance matrix between populations changes the migration rate matrix so that
@@ -453,6 +453,13 @@ bayes-proposals= THETA METROPOLIS-HASTINGS Sampler
 bayes-proposals= MIG METROPOLIS-HASTINGS Sampler
 bayes-proposals= DIVERGENCE METROPOLIS-HASTINGS Sampler
 bayes-proposals= DIVERGENCESTD METROPOLIS-HASTINGS Sampler
+
+bayes-priors= THETA * * UNIFORMPRIOR: 0.000000 0.100000 0.010000 
+bayes-priors= MIG * * UNIFORMPRIOR: 0.000000 5000.000000 500.000000 
+bayes-priors= SPLIT * * UNIFORMPRIOR: 0.000000 0.100000 0.010000 
+bayes-priors= SPLITSTD * * UNIFORMPRIOR: 0.000000 0.100000 0.100000 
+
+
 #
 #  Hyper-prior for all parameters
 #  The parameter of the prior is drawn from a Gamma distribution with mean and alpha
@@ -464,7 +471,7 @@ bayes-proposals= DIVERGENCESTD METROPOLIS-HASTINGS Sampler
 bayes-hyperpriors=NO
 #
 long-chains=1
-long-inc=10
+long-inc=100
 long-sample=5000
 burn-in=5000  
 auto-tune=YES:0.440000
