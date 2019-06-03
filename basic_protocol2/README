@@ -1,0 +1,6 @@
+This directory contains all files generated in the Basic Protocol 2.
+The tutorial recreates all these files.
+
+the basic_protolc2.sh creates the temp_protocol2 directory and all outfiles and the model probability table.
+
+To use the bf.py utility you will need to copy it into the working directory.

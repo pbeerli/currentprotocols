@@ -1,0 +1,5 @@
+This directory contains all files generated in the Basic Protocol 1.
+The tutorial recreates all these files.
+
+the basic_protocol.sh creates the temp_protocol1 directory and all outfiles and the model probability table.
+

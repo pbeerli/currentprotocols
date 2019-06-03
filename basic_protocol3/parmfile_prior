@@ -1,7 +1,7 @@
 ################################################################################
-# Parmfile for Migrate 4.4.1(git:v4-series-7-ga41f56c)-November-29-2018 [do not remove these first TWO lines]
+# Parmfile for Migrate 4.4.3(git:v4-series-22-g8eb486b)-March-21-2019 [do not remove these first TWO lines]
 # generated automatically on
-# Fri Jan 11 14:43:26 2019
+# Sun Jun  2 10:43:25 2019
 #
 # please report problems to Peter Beerli
 #  email: beerli@fsu.edu
@@ -125,7 +125,8 @@ datatype=SequenceData
 datamodel=JC69
 ttratio=2.000000
 
-freqs-from-data=YES
+freqs-from-data=YES 
+
 seqerror-rate={0.000000,0.000000,0.000000,0.000000}
 categories=1 #no categories file specified
 rates=1: 1.000000 
@@ -155,7 +156,7 @@ haplotyping=NO
 #
 #       population-relabel={assignment for each location in the infile}
 #             example is population-relabel={1 2 2}
-population-relabel={1}
+population-relabel={1, 1, 2}
 #
 #  random-subset=number:random_numberseed
 #        allows to subset the dataset randomly, if number > sample in population
@@ -175,7 +176,7 @@ infile=infile
 #      AUTO           uses computer system clock to generate seed
 #      OWN:seedfile   uses file seedfile with random number seed
 #      OWN:value      uses number value for seed
-random-seed=AUTO #OWN:386808928
+random-seed=AUTO #OWN:389871639
 #
 # Specify the title of the run, will be overridden by title in datafile
 #    Syntax: title=title text [up to 80 characters]
@@ -213,13 +214,13 @@ print-data=NO
 #
 # Print output to file [default is outfile]
 #   Syntax outfile=outfilename
-outfile=outfile
+outfile=outfile_prior
 #
 #-------------------------------------------------------------------------------
 #
 # Print output to a PDF file [default is outfile.pdf]
 #   Syntax pdf-outfile=outfilename.pdf
-pdf-outfile=outfile.pdf
+pdf-outfile=outfile_prior.pdf
 #
 #-------------------------------------------------------------------------------
 #
@@ -358,7 +359,7 @@ divergence-distrib=S
 #                  *--------2     2 receives migrants from 1
 #                  |                and split from 3
 #         ---------*--------3     3 is the persisting ancestor
-custom-migration={**}
+custom-migration={*0d*}
 #
 # Influence of geography on migration rate
 # a distance matrix between populations changes the migration rate matrix so that
@@ -444,7 +445,7 @@ geo=NO
 #                             with '?' as first character
 #
 updatefreq=0.200000 0.200000 0.200000 0.200000 #tree, parameter haplotype, timeparam updates
-bayes-posteriorbins=
+bayes-posteriorbins=1500 
 bayes-posteriormaxtype=TOTAL
 bayes-file=NO
 bayes-allfile=NO
@@ -453,6 +454,10 @@ bayes-proposals= THETA METROPOLIS-HASTINGS Sampler
 bayes-proposals= MIG METROPOLIS-HASTINGS Sampler
 bayes-proposals= DIVERGENCE METROPOLIS-HASTINGS Sampler
 bayes-proposals= DIVERGENCESTD METROPOLIS-HASTINGS Sampler
+bayes-priors= THETA * * EXPPRIOR: 0.000000 0.060000 0.100000 
+bayes-priors= MIG * * UNIFORMPRIOR: 0.000000 5000.000000 500.000000 
+bayes-priors= SPLIT * * EXPPRIOR: 0.000000 0.0800000 0.10000 
+bayes-priors= SPLITSTD * * EXPPRIOR: 0.000000 0.0800000 0.100000 
 #
 #  Hyper-prior for all parameters
 #  The parameter of the prior is drawn from a Gamma distribution with mean and alpha
@@ -464,9 +469,9 @@ bayes-proposals= DIVERGENCESTD METROPOLIS-HASTINGS Sampler
 bayes-hyperpriors=NO
 #
 long-chains=1
-long-inc=100
+long-inc=10
 long-sample=5000
-burn-in=10000  
+burn-in=5000  
 auto-tune=YES:0.440000
 assign=NO
 #
