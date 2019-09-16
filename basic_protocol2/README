@@ -7,7 +7,7 @@ the basic_protocol2_mpi.sh is equivalent to basic_protocol2.sh except that it us
 To use the bf.py utility you will need to copy it into the working directory.
 
 
-The directory example_results_short contain example results for the tutorial in Basic Protocol2 and Advacced Protocol for the parmfile_short derived models.
+The directory example_results_short contain example results for the tutorial in Basic Protocol2 and Advanced Protocol for the parmfile_short derived models.
 
 The directory example_results_defaults contain example results for the tutorial in Basic Protocol2 and Advacced Protocol for the parmfile_default derived models.
 
