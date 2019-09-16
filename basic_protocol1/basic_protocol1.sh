@@ -8,7 +8,7 @@ echo "creates a directory $tempdir and then runs"
 echo " all 3 examples for the basic protocol"
 mkdir -p $tempdir
 cd $tempdir
-cp ../infile.modern infile
+cp ../infile infile
 cp ../parmfile_tooshort .
 cp ../parmfile_short .
 cp ../parmfile_default parmfile
