@@ -1,5 +1,10 @@
 This directory contains all files generated in the Basic Protocol 1.
-The tutorial recreates all these files.
+The tutorial instructions recreate all these files.
 
-the basic_protocol.sh creates the temp_protocol1 directory and all outfiles and the model probability table.
+the basic_protocol1.sh creates the temp_protocol1 directory and all outfiles
+
+the basic_protocol1_mpi.sh creates the temp_protocol1 directory and all outfiles
+using the parallel version of migrate-n-mpi, if the parallel version does not exist this bash script will not work correctly.
+
+the directory example_results contains results that were used to generate the figures and tables of the text.
 

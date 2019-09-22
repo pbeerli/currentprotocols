@@ -1,11 +1,16 @@
 This directory contains all files generated in the Basic Protocol 2.
 The tutorial recreates all these files.
 
-the basic_protocol2.sh creates the temp_protocol2 directory and all outfiles and the model probability table.
-the basic_protocol2_mpi.sh is equivalent to basic_protocol2.sh except that it uses the parallel migrate version, see Advanced support protocol.
+The basic_protocol2.sh creates the temp_protocol2 directory and all outfiles and the model probability table.
+The basic_protocol2b.sh is equal to the basic_protocol.sh but uses the parmfile_default instead of the parmfile_short; it puts the outfile into the same temp_protocol2 folder.
+
+The basic_protocol2_mpi.sh is equivalent to basic_protocol2.sh except that it uses the parallel migrate version, see Advanced support protocol.
+[basic_protocl_mpib.sh uses the parmfile_default]
 
 To use the bf.py utility you will need to copy it into the working directory.
-
+It will take a set of lines that contain the marginal likelihood values,
+this is achieved using 'grep' for example like this:
+grep 'All     " outfile* | srot -n -k 4,4 | python bf.py
 
 The directory example_results_short contain example results for the tutorial in Basic Protocol2 and Advanced Protocol for the parmfile_short derived models.
 
