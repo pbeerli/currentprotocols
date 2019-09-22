@@ -1,0 +1,6 @@
+This tutorial compares the merit of different population models using
+marginal likelihoods.
+
+the directory comparison contains all outfiles that were used to generate the model probability tables.
+
+the file advanced_protocol.sh recreates the tutorial
