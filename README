@@ -1,0 +1,40 @@
+# Tutorial data for Currrent Protocols
+
+it contains folders for 4 protocols
+
+basic_protocol1
+containing these files:
+README                     #discusses the content of the directory
+basic_protocol1.sh         #recreates the tutorial 
+basic_protocol1_mpi.sh     #recreates the tutorial using parallel migrate
+example_results            #results used to write the paper
+infile                     #main data file
+parmfile_default           #option file parameters with default options 
+parmfile_short             #10x shorter than default
+parmfile_tooshort          #100x shorter than the default
+
+
+basic_protocol2
+containing these files:
+README                     #discusses the content of the directory
+basic_protocol2.sh         #recreates the tutorial
+basic_protocol2b.sh        #same as above but using default parameters
+basic_protocol2_mpi.sh     #recreates the tutorial using parallel migrate
+basic_protocol2_mpib.sh    #same as above but using default parameters
+bf.py                      #script to calculate model probabiities    
+example_results_default    #results using defaults used to write this paper 
+example_results_short      # results used to write this paper
+
+basic_protocol3
+contains these files:
+README                     #discusses content of directory
+basic_protocol3.sh         #script to recreate the basic tutorial 3
+
+
+advanced__protocol
+[in the published paper this is labeled basic_protocol4]
+contains these files:
+README                     #iscusses content of directory
+advanced_protocol.sh       #recreates content
+bf.py                      #script to calculate model probabilities
+comparison                 #directory containing the files used in the paper
